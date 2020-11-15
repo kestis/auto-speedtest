@@ -83,4 +83,4 @@ Select the correct database for use `USE speedtest`
 View the data `SELECT * FROM "stats"`
 
 ## Data visualization
-Grafana is a great tool to visualize the data collected by auto-speedtest
+Grafana is a great tool to visualize the data collected by auto-speedtest. It can use InfluxDB as a data source.
