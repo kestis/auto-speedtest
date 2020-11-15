@@ -1,8 +1,8 @@
 import os
 from influxdb import InfluxDBClient
 
-#Execute speed test with csv output. You might want to set a server to be used.
-stream = os.popen('speedtest-cli --server 22669 --csv')
+#Execute speed test with csv output.
+stream = os.popen('speedtest-cli --csv')
 #Read and split the output
 output = stream.read()
 parts = output.split(',')
