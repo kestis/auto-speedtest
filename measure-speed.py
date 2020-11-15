@@ -12,7 +12,7 @@ download = int(float(parts[6]))
 upload = int(float(parts[7]))
 
 #Connection to InfluxDB
-client = InfluxDBClient(host='localhost', port=8086, username='user', password='password')
+client = InfluxDBClient(host='localhost', port=8086, username='username', password='password')
 #Switch to correct database
 client.switch_database('speedtest')
 #Create the JSON to be inserted
