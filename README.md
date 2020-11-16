@@ -76,7 +76,7 @@ Create a cron job to run the script at desired intervals. For example: `*/15 * *
 
 ## Checking that the  script works
 
-Open the InfluxDB shell with your credentials `influx -username username -password password`
+After the script has been executed open the InfluxDB shell with your credentials `influx -username username -password password`
 
 Select the correct database for use `USE speedtest`
 
